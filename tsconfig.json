@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "ES2021",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "jsx": "react-jsx"
+  },
+  "lib": ["es2015"],
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}
