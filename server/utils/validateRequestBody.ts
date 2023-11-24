@@ -10,7 +10,7 @@ export const validateRequestBody = async <T>(
     DtoInstance[k] = requestBody[k];
   });
   const errors = await validate(DtoInstance as object);
-  console.log("Validation errors:", errors);
+  // console.log("Validation errors:", errors);
   if (errors.length > 0) {
     let errorMessage = "";
     errors.forEach((e: any, idx: number) => {

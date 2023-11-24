@@ -14,6 +14,8 @@ NPM version: 9.5.1
 
 1. npm run start:dev
 
-## Unit Test
+## Testing
 
-2. npm run test
+Unit Test: `npm run test`
+
+E2E Integration: `npm run e2e`

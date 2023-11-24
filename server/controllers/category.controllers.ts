@@ -57,7 +57,7 @@ export const createCategory = async (
 
     await CreatedCateogry.save();
     const categories = await CategoryModel.find();
-    return res.status(200).json(categories);
+    return res.status(201).json(categories);
   } catch (error) {
     catchControllerError({
       operation: "createCategory",

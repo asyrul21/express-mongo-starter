@@ -64,7 +64,7 @@ export const createItem = async (
     const items = await ItemModel.find()
       .populate("categories")
       .populate("user", "name email");
-    return res.status(200).json(items);
+    return res.status(201).json(items);
   } catch (error) {
     catchControllerError({
       operation: "createItem",
