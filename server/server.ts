@@ -28,10 +28,7 @@ import * as SocketIO from "socket.io";
 import SockerInfo from "./constants/Socket";
 
 setupDb(process.env.NODE_ENV);
-// Main().catch((err) => {
-//   console.error("Failed to run Main Application wrapper:", err);
-// });
-// async function Main() {
+
 const app = express();
 
 // morgan

@@ -20,8 +20,8 @@ beforeAll(async () => {
    * Run Server
    */
   server.listen(5000, () => {
-    console.log(`Express is listening at http://localhost:5000`);
-    console.log(`Node Environment: ${process.env.NODE_ENV}`);
+    // console.log(`Express is listening at http://localhost:5000`);
+    // console.log(`Node Environment: ${process.env.NODE_ENV}`);
   });
 });
 

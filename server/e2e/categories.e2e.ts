@@ -22,7 +22,6 @@ describe("Categories E2E Tests", () => {
       .send(sampleCategory1)
       .set("Content-Type", "application/json");
     expect(res.statusCode).toBe(401);
-    expect(1).toBe(1);
   });
 
   it("should add new categories and get them correctly", async () => {
